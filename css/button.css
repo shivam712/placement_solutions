@@ -1,0 +1,10 @@
+.btn[disabled] {
+    opacity: 0.8;
+    cursor: no-drop;
+}
+
+.btn-large {
+    font-size: 24px;
+    background-color: #71953d;
+    color: #fff;
+}
