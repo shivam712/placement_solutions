@@ -1,0 +1,151 @@
+.marL20 {
+  margin-left: 20px !important;
+}
+
+.provider-selectbox {
+  margin: 0 0 20px;
+}
+
+.padL7 {
+  padding-left: 7px !important;
+}
+
+.padR7 {
+  padding-right: 7px !important;
+}
+
+.arrow {
+  i {
+    font-size: 21px;
+    vertical-align: text-top;
+  }
+}
+
+.tabular-report-back {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+@media print {
+
+  .survey-status-table, .survey-char-detail-table, .survey-status-detail-table {
+    table.style-0 {
+      table-layout: auto;
+    }
+
+    tr:nth-child(n+5) {
+      td:nth-child(1) {
+        width: 25%;
+      }
+
+      td:nth-child(2) {
+        width: 10%;
+      }
+
+      td:nth-child(3) {
+        width: 10%;
+      }
+
+      td:nth-child(4) {
+        width: 10%;
+      }
+
+      td:nth-child(5) {
+        width: 15%;
+      }
+
+      td:nth-child(6) {
+        width: 20%;
+      }
+    }
+  }
+
+  .survey-status-detail-table {
+    tr:nth-child(n+5) {
+      td:nth-child(1) {
+        width: 25%;
+      }
+
+      td:nth-child(2) {
+        width: 10%;
+      }
+
+      td:nth-child(3) {
+        width: 10%;
+      }
+
+      td:nth-child(4) {
+        width: 10%;
+      }
+
+      td:nth-child(5) {
+        width: 10%;
+      }
+
+      td:nth-child(6) {
+        width: 10%;
+      }
+
+      td:nth-child(7) {
+        width: 20%;
+      }
+    }
+  }
+
+  .survey-char-detail-table {
+    tr:nth-child(n+5) {
+      td:nth-child(1) {
+        width: 25%;
+      }
+
+      td:nth-child(2) {
+        width: 10%;
+      }
+
+      td:nth-child(3) {
+        width: 10%;
+      }
+
+      td:nth-child(4) {
+        width: 10%;
+      }
+
+      td:nth-child(5) {
+        width: 10%;
+      }
+
+      td:nth-child(6) {
+        width: 10%;
+      }
+
+      td:nth-child(7) {
+        width: 20%;
+      }
+    }
+  }
+}
+
+.file-label{
+  line-height: 2.1;
+  float: left;
+}
+.pdf-icon{
+  width: 16px;
+}
+.year-daterange-width{
+ width:  52.33%;
+}
+.year-daterange-label{
+  margin:10px;
+}
+.report-title{
+  width: 100%;
+  color: black;
+  font-size: 12pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
